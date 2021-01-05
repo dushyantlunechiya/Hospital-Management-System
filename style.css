@@ -1,0 +1,134 @@
+*{
+  overflow-y: : hidden;
+
+}
+body,html{
+  margin:0;
+  height: 100%;
+}
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+#myVideo{
+
+  position:absolute;
+  min-width:100%;
+  min-height:100%;
+  z-index: -1;
+  overflow: hidden;
+
+}
+
+input
+{
+  -moz-border-radius: 15px;
+ border-radius: 15px;
+    border:solid 1px black;
+    padding:5px;
+}
+.heading{
+
+  text-align: center;
+  font-size: 50px;
+  color:white;
+
+  padding-top: 10px;
+  transition: color 1s;
+
+
+}
+.heading:hover{
+  color:#1aff8c;
+}
+.back{
+ 
+  height: 100%;
+opacity: 0.8;
+z-index: 1;
+
+
+
+
+}
+a:link, a:visited {
+
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+a:hover, a:active {
+  color:#1aff8c;
+}
+.container {
+
+  border-radius: 20px;
+  background-color:#595959;
+  top:100px;
+  position:absolute;
+ left:35%;
+  color: #ffffff;
+
+  font-size:20px;
+  font-family: 'Comfortaa', cursive;
+
+}
+.form1{
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  background-color:#595959;
+}
+
+
+.vv
+{
+
+ background-color:#ff6666;
+  padding: 10px;
+  padding-left:80px;
+  margin-left:500px;
+  margin-right:500px;
+  margin-bottom: 30px;
+  margin-top:90px;
+  opacity: 0.85;
+  font-size: 30px;
+  color:white;
+  font-family: 'Arimo', sans-serif;
+  z-index: 1;
+
+}
+.haha{
+  top:0px;
+  left:0px;
+  background-image: url(form1.jpg);
+  background-size:1800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+
+}
+.header{
+  width:100%;
+  padding-top:10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: black;
+  color:white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  height:content;
+  top:0px;
+  left:0px;
+  position: fixed;
+  z-index: 2;
+}
+.page{
+
+  font-size: 25px;
+padding-left:1000px;
+
+}

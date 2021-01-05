@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+ <div class="video">
+  <video autoplay muted loop id="myVideo">
+    <source src="background.mp4" type="video/mp4">
+</div>
+
+<div class="heading">
+  <h1>HOSPITAL MANAGEMENT SYSTEM</h1>
+  <a href="display.php" style="text-decoration: none; color:#1aff8c"><h6>Click here for details</h6></a>
+</div>
+
+
+
+
+<div class="back">
+  <div class="container" style="width:550px;">
+ <form action="reg.php" class="form-block" method="POST">
+   <div class="form1 row">
+     <label>Aadhaar No : </label>
+     <input type="number"  name="adhar"  style="margin-left:15px;"required>
+   </div>
+   <div class="form1 row">
+  <label>Name :</label>
+    <input type="text" name="name" required style="margin-left:82px;">
+  </div>
+  <div class="form1 row">
+  <label>Gender :</label>
+    <input type="radio" name="gender" value="Male" style="margin-left:60px;" required>Male</br>
+    <input type="radio" name="gender" value="Female" style="margin-left:20px;" required>Female</br>
+    <input type="radio" name="gender" value="Other"  style="margin-left:20px;" required>Other
+  </div>
+  <div class="form1 row">
+  <label>Date of Birth :</label>
+    <input type="date" name="dob" style="margin-left:30px;"required>
+  </div>
+  <div class="form1 row">
+  <label>Email :</label>
+    <input type="email" name="email" style="margin-left:90px;"required>
+  </div>
+  <div class="form1 row">
+  <label>Phone no :</label>
+    <select name="phoneCode" style="margin-left:50px;"required>
+      <option selected hidden value="">..</option>
+      <option value="91">91</option>
+      <option value="16">16</option>
+      <option value="22">22</option>
+      <option value="19">19</option>
+      <option value="02">02</option>
+      <option value="11">11</option>
+     </select>
+     <input type="phone" name="phone" style="margin-left:5px;"required>
+   </div>
+   <div class="form1 row">
+ <label style="margin-top:0px;">Address : </label>
+    <textarea type="text" row='10' col="40" name="adrs" style="margin-left:65px;"required></textarea>
+  </div>
+  <div class="form1 row">
+<label>State : </label>
+  <select name="State" style="margin-left:90px;"required>
+   <option selected hidden value="">Select State</option>
+   <option value="Maharashtra">Maharashtra</option>
+   <option value="Gujarat">Gujarat</option>
+   <option value="Rajasthan">Rajasthan</option>
+   <option value="Andhra Pradesh">Andhra Pradesh</option>
+   <option value="Delhi">Delhi</option>
+   <option value="Bihar">Bihar</option>
+ </select>
+</div>
+<div class="form1 row">
+<label>Zip code : </label>
+  <input type="number"  name="zip" style="margin-left:60px;"required>
+</div>
+<input type="submit" value="submit" style="margin-left:400px; margin-bottom:20px;" class="btn btn-primary">
+
+</div>
+
+</form>
+</div>
+</body>
+</html>
